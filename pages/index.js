@@ -13,7 +13,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/cd.png" />
       </Head>
-      <main className="bg-black font-serif text-white w-screen h-screen flex items-center justify-center ">
+      <main
+        className="bg-black text-3xl font-diatype text-white 
+      w-screen h-screen flex items-center justify-center 
+      border-2 border-yellow-300"
+      >
         <div>Especial Radio</div>
       </main>
     </>

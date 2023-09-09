@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        diatype: ["Diatype Condensed", "sans"], // 'sans' acts as a fallback font
+      },
+    },
   },
   plugins: [],
 };

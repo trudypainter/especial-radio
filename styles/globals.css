@@ -5,3 +5,10 @@
 body {
   overflow: hidden;
 }
+
+@font-face {
+  font-family: "Diatype Condensed";
+  src: url("/fonts/ABC Diatype Condensed/ABCDiatypeCondensed-Medium-Trial.woff")
+    format("woff");
+  font-weight: normal;
+}
